@@ -4,51 +4,240 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Admin Dashboard </title>
+    <!-- also add logo -->
     <link href="styles.css" rel="stylesheet">
 </head>
 
 <body>
     <div class="container">
         <div class="header">
-            <!-- <div class="search">
-                <img id="magnify" src="design/search.png" alt="seach icon"> </img>
-                <input type="text" id="search-bar">
-            </div> -->
+            <div class="top-header">
+                <div class="search">
+                    <img id="magnify" src="design/search.png" alt="search icon"> </img>
+                    <input type="text" id="search-bar">
+                </div>
+
+                <div class="bell-user-name">
+                    <img id="bell" src="/design/notification.png" alt="bell icon" height="20px"> </img>
+                    <img id="top-user-icon" src="/design/jake.jpg" alt="user icon" height="40px"> </img>
+                    <p id="top-user"> cosmicdaisy</p>
+                </div>
+            </div>
+
+            <div class="bottom-header">
+                <div class="user-info">
+                    <img id="bottom-user-icon" src="design/jake.jpg" alt="user icon" height="80px"> </img>
+                    <div class="bottom-user">
+                        <p id="bottom-user-text"> Hi, there </p>
+                        <p id="bottom-username"> cosmicdaisy </p>
+                    </div>
+                </div>
+
+                <div class="buttons-container">
+                    <button class="btn"> New </button>
+                    <button class="btn"> Upload </button>
+                    <button class="btn"> Share </button>
+                </div>
+            </div>
+
         </div>
 
 
         <div class="sidebar">
+            <div class="dashboard-heading">
+                <img src="https://nlaff33702.github.io/admin-page/icons/view-dashboard.svg" height="30px">
+            </div>
+
+            <div class="home">
+                <img src="https://nlaff33702.github.io/admin-page/icons/home.svg" height="20px">
+                <p> Home </p>
+
+            </div>
+
+            <div class="profile">
+                <img src="https://nlaff33702.github.io/admin-page/icons/home.svg" height="20px">
+                <p> Home </p>
+
+            </div>
+
+            <div class="messages">
+                <img src="https://nlaff33702.github.io/admin-page/icons/home.svg" height="20px">
+                <p> Home </p>
+
+            </div>
+
+            <div class="history">
+                <img src="https://nlaff33702.github.io/admin-page/icons/home.svg" height="20px">
+                <p> Home </p>
+
+            </div>
+
+            <div class="tasks">
+                <img src="https://nlaff33702.github.io/admin-page/icons/home.svg" height="20px">
+                <p> Home </p>
+
+            </div>
+
+            <div class="communities">
+                <img src="https://nlaff33702.github.io/admin-page/icons/home.svg" height="20px">
+                <p> Home </p>
+
+            </div>
+
+            <br>
+
+            <div class="settings">
+                <img src="https://nlaff33702.github.io/admin-page/icons/home.svg" height="20px">
+                <p> Home </p>
+
+            </div>
+
+            <div class="support">
+                <img src="https://nlaff33702.github.io/admin-page/icons/home.svg" height="20px">
+                <p> Home </p>
+
+            </div>
+
+            <div class="privacy">
+                <img src="https://nlaff33702.github.io/admin-page/icons/home.svg" height="20px">
+                <p> Home </p>
+
+            </div>
+
         </div>
 
         <div class="main">
-            <p> Your Projects </p>
+            <p id="main-heading1"> Your Projects </p>
             <div class="card-container">
                 <div class="card">
                     <p> Super Cool Project </p>
+                    <p class="para-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. A dolorem
+                        deserunt
+                        debitis tenetur esse
+                        neque, impedit dolorum beatae sit quae, consectetur.</p>
+                    <div class="icons">
+                        <img src="https://nlaff33702.github.io/admin-page/icons/star-plus-outline.svg" height="20px">
+                        <img src="https://nlaff33702.github.io/admin-page/icons/eye-plus-outline.svg" height="20px">
+                        <img src="https://nlaff33702.github.io/admin-page/icons/source-branch.svg" height="20px">
 
+                    </div>
                 </div>
                 <div class="card">
                     <p> Less Cool Project </p>
+                    <p class="para-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. A dolorem
+                        deserunt
+                        debitis tenetur esse
+                        neque, impedit dolorum beatae sit quae, consectetur.</p>
+                    <div class="icons">
+                        <img src="https://nlaff33702.github.io/admin-page/icons/star-plus-outline.svg" height="20px">
+                        <img src="https://nlaff33702.github.io/admin-page/icons/eye-plus-outline.svg" height="20px">
+                        <img src="https://nlaff33702.github.io/admin-page/icons/source-branch.svg" height="20px">
 
+                    </div>
                 </div>
                 <div class="card">
                     <p> Impossible app </p>
+                    <p class="para-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. A dolorem
+                        deserunt
+                        debitis tenetur esse
+                        neque, impedit dolorum beatae sit quae, consectetur.</p>
+                    <div class="icons">
+                        <img src="https://nlaff33702.github.io/admin-page/icons/star-plus-outline.svg" height="20px">
+                        <img src="https://nlaff33702.github.io/admin-page/icons/eye-plus-outline.svg" height="20px">
+                        <img src="https://nlaff33702.github.io/admin-page/icons/source-branch.svg" height="20px">
 
+                    </div>
                 </div>
                 <div class="card">
                     <p> Easy Peasy App </p>
-
+                    <p class="para-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. A dolorem
+                        deserunt
+                        debitis tenetur esse
+                        neque, impedit dolorum beatae sit quae, consectetur.</p>
+                    <div class="icons">
+                        <img src="https://nlaff33702.github.io/admin-page/icons/star-plus-outline.svg" height="20px">
+                        <img src="https://nlaff33702.github.io/admin-page/icons/eye-plus-outline.svg" height="20px">
+                        <img src="https://nlaff33702.github.io/admin-page/icons/source-branch.svg" height="20px">
+                    </div>
                 </div>
                 <div class="card">
                     <p> Ad Blocker </p>
-
+                    <p class="para-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. A dolorem
+                        deserunt
+                        debitis tenetur esse
+                        neque, impedit dolorum beatae sit quae, consectetur.</p>
+                    <div class="icons">
+                        <img src="https://nlaff33702.github.io/admin-page/icons/star-plus-outline.svg" height="20px">
+                        <img src="https://nlaff33702.github.io/admin-page/icons/eye-plus-outline.svg" height="20px">
+                        <img src="https://nlaff33702.github.io/admin-page/icons/source-branch.svg" height="20px">
+                    </div>
                 </div>
                 <div class="card">
                     <p> Money Maker </p>
+                    <p class="para-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. A dolorem
+                        deserunt
+                        debitis tenetur esse
+                        neque, impedit dolorum beatae sit quae, consectetur.</p>
+                    <div class="icons">
+                        <img src="https://nlaff33702.github.io/admin-page/icons/star-plus-outline.svg" height="20px">
+                        <img src="https://nlaff33702.github.io/admin-page/icons/eye-plus-outline.svg" height="20px">
+                        <img src="https://nlaff33702.github.io/admin-page/icons/source-branch.svg" height="20px">
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="announcements-container">
+                <p id="announce-text"> Announcements </p>
+                <div class="announcements">
+                    <p> Site Maintenance </p>
+                    <p class="para-text"> Expedita aspernatur maiores enim soluta esse praesentium et similique illo
+                        culpa beatae,
+                        doloremque, excepturi temporibus ipsam repellendus fugit labore ex iure alias!</p>
+                    <hr>
+                    <p> Community Share Day</p>
+                    <p class="para-text"> Assumenda obcaecati placeat quam optio magni, accusantium reiciendis iste at,
+                        voluptate saepe
+                        eum repellendus hic quasi ex repudiandae ipsa odit modi mollitia!!</p>
+                    <hr>
+                    <p>
+                        Updated Privacy Policy
+                    </p>
+                    <p class="para-text"> Aut atque in voluptate eum non asperiores, enim assumenda, optio impedit
+                        veniam sed minus magnam
+                        fugiat! Nulla doloribus asperiores praesentium enim porro!</p>
+                </div>
+            </div>
+
+
+            <div class="trendings-container">
+                <p id="trendings-heading"> Trendings </p>
+                <div class="trendings">
+                    <div class="first-trending">
+                        <img id="first-icon" src="design/frog-.png" alt="user icon" height="40px" border-radius="50%">
+                        </img>
+                        <div class="text">
+                            <p class="trending-text"> @tegan </p>
+                            <p class="trending-text"> World Peace Builder </p>
+                        </div>
+                    </div>
+
+
+                    <div class="second-trending">
+                        <img id="second-icon" src="design/jake.jpg" alt="user icon" height="40px" border-radius="50%">
+                        </img>
+                        <div class="text">
+                            <p class="trending-text"> @morgan </p>
+                            <p class="trending-text"> Way Cool Project </p>
+                        </div>
+                    </div>
+
 
                 </div>
 
             </div>
+
 
         </div>
     </div>
